@@ -5,6 +5,10 @@ db = client.test
 
 d = {'name':'monkey','surname':'D.Luffy','email':'one.piece@gmail.com'}  # creating a dictionary
 
+#Anime
+# is
+# Love
+
 db1 = client['mongotest']
 coll = db1['test']
 coll.insert_one(d)
